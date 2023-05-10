@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding:16px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding:16px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+
+#ing{
+position:relative;
+top:-160px;
+right:-180px;
+width:270px;
+height:160px;
+}
+
+#img{
+position:relative;
+top:20px;
+right:-400px;
+
+font-size:50px;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1 id="img">Course Modules </h1>
+
+
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--cujxO36v--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/eiukxo19khgzipc97rq1.jpg" alt="Denim Jeans" width="250" height="100">
+  <h3>Basics Of python  ₹1000</h3>
+  <p class="price"></p>
+  
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+</div>
+
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqWOC8Z1iieT1T2nVvumI-SXi89_I16QgGyNfjNM810qModZVVvqn7EK_V7aDU0a1-xo&usqp=CAU" alt="Denim Jeans" width="250" height="100">
+  <h3>Django     ₹5000</h3>
+  <p class="price"></p>
+  
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://miro.medium.com/max/1200/1*Ecb0MpRS8ZQEUUOKnouzhQ.png" alt="Denim Jeans" width="250" height="100">
+  <h3>Numpy    ₹5000 </h3>
+  <p class="price">  </p>
+ 
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9htFfFe1Wf_eyWQ8rdtHW29NKl28CAKu3VMyvY9rGD-PSpyZmQPj9ppGRMU-bHCCMDvQ&usqp=CAU" alt="Denim Jeans" width="250" height="100" >
+  <h3>Pandas ₹3000 </h3>
+  <p class="price"></p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+
+
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://quintagroup.com/cms/python/images/cherrypy.png/@@images/f9b9eec6-4123-4c1f-a993-a82cdae706fc.png" alt="Denim Jeans" width="250" height="100"  >
+  <h3>CherryPy  ₹1000</h3>
+  <p class="price"></p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://uploads.toptal.io/blog/image/91871/toptal-blog-image-1450190826314-830cb5528c9d6c342a95f590e8e99be6.jpg" alt="Denim Jeans" width="250" height="100" >
+  <h3>Bottle  ₹1000  </h3>
+  <p class="price"> </p>
+ 
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://unicatlearning.com/wp-content/uploads/2019/10/data-science-with-python.png" alt="Denim Jeans" width="250" height="100"  >
+  <h3>Data Science ₹1000</h3>
+  <p class="price"> </p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://images.squarespace-cdn.com/content/v1/60103a1aa8f8381c6db87e7f/1613655198721-5Q7IOWAOIXWE0X75DQFI/Giottologo.png" alt="Denim Jeans" width="250" height="100" >
+  <h3>Giotto  ₹8000  </h3>
+  <p class="price">   </p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://www.fullstackpython.com/img/logos/pyramid.jpg" alt="Denim Jeans"  width="250" height="100"   >
+  <h3>Pyramid  ₹600</h3>
+  <p class="price">  </p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvOH0MSlcwe-h2pvZ6mRpelmaVzoTd_2tiu91UbPCHzonBCEPUErwglcRM7y9dneWhLhI&usqp=CAU" alt="Denim Jeans"  width="250" height="100" >
+  <h3>CubicWeb  ₹1000</h3>
+  <p class="price"></p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://png.pngitem.com/pimgs/s/361-3612105_web2py-python-logo-hd-png-download.png" alt="Denim Jeans" width="250" height="100" >
+  <h3>Web2Py ₹1000</h3>
+  <p class="price"> </p>
+ 
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="https://pythonawesome.com/content/images/2021/09/python-asyncio.png" alt="Denim Jeans" width="250" height="100" >
+  <h3>Asynico ₹1000 </h3>
+  <p class="price"> </p>
+ 
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+<h2 style="text-align:center"></h2>
+
+  <div class="column">
+<div class="card">
+  <img src="" alt="Denim Jeans" width="250" height="100" >
+  <h3>hfgfy</h3>
+  <p class="price">₹3000 </p>
+  
+  <p><button>Add to Cart</button></p>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
